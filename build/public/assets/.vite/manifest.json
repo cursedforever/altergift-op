@@ -1,0 +1,152 @@
+{
+  "_Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js": {
+    "file": "Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js",
+    "name": "Button.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "inertia/app/app.ts"
+    ]
+  },
+  "_CardFooter.vue_vue_type_script_setup_true_lang-5UGbIKeR.js": {
+    "file": "CardFooter.vue_vue_type_script_setup_true_lang-5UGbIKeR.js",
+    "name": "CardFooter.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "_Input.vue_vue_type_script_setup_true_lang-IrXkhlru.js",
+      "inertia/app/app.ts"
+    ]
+  },
+  "_CardTitle.vue_vue_type_script_setup_true_lang-DWJ5zH8T.js": {
+    "file": "CardTitle.vue_vue_type_script_setup_true_lang-DWJ5zH8T.js",
+    "name": "CardTitle.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "inertia/app/app.ts"
+    ]
+  },
+  "_Input.vue_vue_type_script_setup_true_lang-IrXkhlru.js": {
+    "file": "Input.vue_vue_type_script_setup_true_lang-IrXkhlru.js",
+    "name": "Input.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "inertia/app/app.ts",
+      "_index-DGBZFvZA.js"
+    ]
+  },
+  "__plugin-vue_export-helper-DlAUqK2U.js": {
+    "file": "_plugin-vue_export-helper-DlAUqK2U.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "_createLucideIcon-COx__VtS.js": {
+    "file": "createLucideIcon-COx__VtS.js",
+    "name": "createLucideIcon",
+    "imports": [
+      "inertia/app/app.ts"
+    ]
+  },
+  "_index-DGBZFvZA.js": {
+    "file": "index-DGBZFvZA.js",
+    "name": "index",
+    "imports": [
+      "inertia/app/app.ts"
+    ]
+  },
+  "inertia/app/app.ts": {
+    "file": "app-CRan81Pq.js",
+    "name": "app",
+    "src": "inertia/app/app.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "inertia/pages/auth/login.vue",
+      "inertia/pages/auth/register.vue",
+      "inertia/pages/errors/not_found.vue",
+      "inertia/pages/errors/server_error.vue",
+      "inertia/pages/home.vue",
+      "inertia/pages/pools/pool-participate.vue",
+      "inertia/pages/pools/show.vue"
+    ],
+    "css": [
+      "app-Dw2afmKM.css"
+    ]
+  },
+  "inertia/pages/auth/login.vue": {
+    "file": "login-Arxw9BMl.js",
+    "name": "login",
+    "src": "inertia/pages/auth/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_CardTitle.vue_vue_type_script_setup_true_lang-DWJ5zH8T.js",
+      "_Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js",
+      "_CardFooter.vue_vue_type_script_setup_true_lang-5UGbIKeR.js",
+      "inertia/app/app.ts",
+      "_createLucideIcon-COx__VtS.js",
+      "_Input.vue_vue_type_script_setup_true_lang-IrXkhlru.js",
+      "_index-DGBZFvZA.js"
+    ]
+  },
+  "inertia/pages/auth/register.vue": {
+    "file": "register-CTnpE69T.js",
+    "name": "register",
+    "src": "inertia/pages/auth/register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_CardTitle.vue_vue_type_script_setup_true_lang-DWJ5zH8T.js",
+      "_CardFooter.vue_vue_type_script_setup_true_lang-5UGbIKeR.js",
+      "_Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js",
+      "inertia/app/app.ts",
+      "_Input.vue_vue_type_script_setup_true_lang-IrXkhlru.js",
+      "_index-DGBZFvZA.js"
+    ]
+  },
+  "inertia/pages/errors/not_found.vue": {
+    "file": "not_found-D8S8CNHh.js",
+    "name": "not_found",
+    "src": "inertia/pages/errors/not_found.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "inertia/app/app.ts"
+    ]
+  },
+  "inertia/pages/errors/server_error.vue": {
+    "file": "server_error-BeJKbwG0.js",
+    "name": "server_error",
+    "src": "inertia/pages/errors/server_error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts"
+    ]
+  },
+  "inertia/pages/home.vue": {
+    "file": "home-B4V1OHJ1.js",
+    "name": "home",
+    "src": "inertia/pages/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "_index-DGBZFvZA.js",
+      "_Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js",
+      "_createLucideIcon-COx__VtS.js",
+      "_CardTitle.vue_vue_type_script_setup_true_lang-DWJ5zH8T.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/pools/pool-participate.vue": {
+    "file": "pool-participate-Bl5Tuslp.js",
+    "name": "pool-participate",
+    "src": "inertia/pages/pools/pool-participate.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js",
+      "inertia/app/app.ts",
+      "_Input.vue_vue_type_script_setup_true_lang-IrXkhlru.js",
+      "_index-DGBZFvZA.js"
+    ]
+  },
+  "inertia/pages/pools/show.vue": {
+    "file": "show-cED5eEMF.js",
+    "name": "show",
+    "src": "inertia/pages/pools/show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "_Button.vue_vue_type_script_setup_true_lang-BCxHoLlf.js"
+    ]
+  }
+}

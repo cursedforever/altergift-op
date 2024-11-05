@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as s,e as o,o as n}from"./app-CRan81Pq.js";const a={},r={class:"container"};function c(i,e){return n(),s("div",r,e[0]||(e[0]=[o("div",{class:"title"},"Page not found",-1),o("span",null,"This page does not exist.",-1)]))}const f=t(a,[["render",c]]);export{f as default};

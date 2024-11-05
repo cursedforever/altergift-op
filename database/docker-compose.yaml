@@ -1,0 +1,29 @@
+services:
+  postgres:
+    container_name: 'altergift-db'
+    image: 'postgres:latest'
+    ports:
+      - 5432:5432
+    volumes:
+      - altergift-psqldata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=altergift
+      - POSTGRES_PASSWORD=altergift
+      - POSTGRES_DB=altergift
+  altergift:
+    container_name: altergift
+    image: sofianz/altergift:0.1
+    ports:
+      - 3333:3333
+    environment:
+      - APP_KEY="6VOfFFzY-WZBj9qsQYe0tjNXLs5VA3dg"
+      - LOG_LEVEL=debug
+      - VITE_APP_NAME=Alter Gifts
+      - DB_HOST=postgres
+      - DB_PORT="5432"
+      - DB_USER=altergift
+      - DB_PASSWORD=altergift
+      - DB_DATABASE=altergift
+    entrypoint: 'sleep 10000'
+volumes:
+  altergift-psqldata:

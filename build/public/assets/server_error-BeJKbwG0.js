@@ -1,0 +1,1 @@
+import{d as o,c as t,e as r,t as a,o as n}from"./app-CRan81Pq.js";const p={class:"container"},c=o({__name:"server_error",props:{error:{}},setup(i){return(s,e)=>(n(),t("div",p,[e[0]||(e[0]=r("div",{class:"title"},"Server Error",-1)),r("span",null,a(s.error.message),1)]))}});export{c as default};
